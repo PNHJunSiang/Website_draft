@@ -47,8 +47,7 @@
   @media screen and (max-width: 500px) {
     .header a {
       float: none;
-      display: block;
-      text-align: left;
+      display: inline-block;
     }
     .header-right {
       float: none;
@@ -77,7 +76,7 @@
 
 
 .service_container {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -85,7 +84,7 @@
 }
 
 .about_container {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -101,7 +100,8 @@
 
 .about_info {
   display: flex;
-  flex: 50%;
+  flex: 80%;
+  padding: 10px;
   height: auto;
 }
 
@@ -115,9 +115,12 @@
 
 .info {
   width: 80%;
-  flex: 1;
-  display: inline-block;
+  flex: 1;  
+  display:flex;
+  text-align:center;
   vertical-align: middle;
+  padding-left: 15%;
+
 }
 
 .facilities_management_img{
@@ -202,4 +205,9 @@
   }
   
 
+}
+ 
+body{
+  background-image: url("background.jpg");
+  background-size:contain;
 }
