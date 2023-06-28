@@ -120,11 +120,13 @@
 }
 
 .facilities_management_img{
-  height: 180px;
+  width: 50%;
+  height: auto;
 }
 
 .about_img{
-  height: 300px;
+  width: 50%;
+  height: auto;
 }
 
 @media only screen and (max-width: 500px) {
