@@ -1,0 +1,198 @@
+.header {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 10px 10px;
+    height: 10%;
+    margin-top: 0px;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 30px;
+    border-radius: 4px;
+    text-decoration: none;
+    vertical-align: middle;
+  }
+
+.logo {
+    position: absolute;
+    height: 10%;
+    width: auto;
+  }
+  
+  /* Change the background color on mouse-over */
+  .header a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active/current link*/
+  .header a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  /* Float the link section to the right */
+  .header_options {
+    float: right;
+  }
+  
+  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+  @media screen and (max-width: 500px) {
+    .header a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+    .header-right {
+      float: none;
+    }
+
+  }
+
+.company_vision {
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  justify-content: center;
+  align-items: center;
+}
+
+.services .service_header {
+  text-decoration: yellow underline;
+}
+
+.about_header {
+  text-decoration: yellow underline;
+}
+
+.contact_header {
+  text-decoration: yellow underline;
+}
+
+
+.service_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.about_container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
+.service {
+  display: flex;
+  flex: 50%;
+  padding: 10px;
+  height: 200px;
+}
+
+.about_info {
+  display: flex;
+  flex: 50%;
+  padding: 30px 50px;
+  height: 300px;
+}
+
+.data {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.info {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.facilities_management_img{
+  height: 180px;
+}
+
+.about_img{
+  height: 300px;
+}
+
+@media only screen and (max-width: 500px) {
+  .service_container {
+    display: inline-block;
+    position: relative;
+  }
+
+  .about_container {
+    display: inline-block;
+    position: relative;
+  }
+
+  
+  #facilities_management { 
+    width: 33%; 
+    float: left;
+  }
+  
+  #concrete_repaires {
+    width: 33%; 
+    float: left;
+  }
+  
+  #building_services { 
+    width: 33%; 
+    float: left;
+  }
+
+  #civil_engineering { 
+    width: 33%; 
+    float: left;
+  }
+
+  #maintenance { 
+    width: 33%; 
+    float: left;
+  }
+
+  #housekeeping_cleansing { 
+    width: 33%; 
+    float: left;
+  }
+
+  #landscaping { 
+    width: 33%; 
+    float: left;
+  }
+
+  #interior_decoration { 
+    width: 33%; 
+    float: left;
+  }
+
+  #electrical_engineering { 
+    width: 33%; 
+    float: left;
+  }
+
+  #pest_contrtol { 
+    width: 33%; 
+    float: left;
+  }
+
+  #about_information { 
+    width: 33%; 
+    float: right;
+  }
+  
+
+}
