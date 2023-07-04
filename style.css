@@ -272,7 +272,7 @@ body{
   color: black;
   font-weight: bold;
   font-size: 1vw;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 2vw 2vw 0;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -280,14 +280,14 @@ body{
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 2vw 0 0 2vw;
 }
 
 
 /* Position the "prev button" to the left */
 .prev {
   left: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: 2vw 0 0 2vw;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -298,9 +298,9 @@ body{
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+  color: black;
+  font-size: 1vw;
+  padding: auto auto;
   position: absolute;
   top: 0;
 }
