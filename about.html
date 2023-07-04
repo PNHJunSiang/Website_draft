@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4596ae72b8.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+    <div class="header" style="font-size: 1vw">
+        <img src="logo.jpg" class="logo"></img>
+        <div class="header_options">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="#services">Service</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+
+    <div class="about" id= "about" style="margin-top:15%; background-color: white;">
+      
+      <div style="text-align: center; padding-top: 5%">
+        <a href="about.html" class="about_header"> <b style="color: black; font-size: 3vw;"> ABOUT </b> </a>
+      </div>
+        
+
+        <div class = "about_container">
+            <div class = "about_info" id = "about_information">
+                <div class = "info"> 
+                    <p style="font-size: 2vw;"> Our </p> 
+                    <p style="font-size: 3vw;"> <u> Vision </u> </p>
+                </div>
+                <div class = "info"> 
+                    <p style="font-size: 2vw;"> Our </p> 
+                    <p style="font-size: 3vw;"> <u> Core Values </u> </p>
+                </div>
+            </div>
+
+            <div class = "about_info" id = "about_information">
+                <div class = "info" style="text-align: left; padding-left: 5%;padding-right: 5%; font-size: 1vw;"> 
+                    <p>To be a company that provides sustainable facility solutions in a safe, 
+                      environmentally friendly and socially responsible fashion through design & build, 
+                      maintenance, innovation and talent excellence. 
+                    </p>
+                </div>
+                <div class = "info" style="text-align: left; padding-left: 5%; font-size: 1vw;"> 
+                    <p>
+                      <b> To Serve with</b> <b style="font-size: 2vw;">P.A.S.</b> <b style="color: red; font-weight: bolder; font-size: 2vw;">S</b> <b style="font-size: 2vw;">.I.O.N</b> 
+                      <br>
+                      <br>
+                      <b> P </b> rofessionalism  – Be professional in presenting ourselves to our colleagues and customers. 
+                      <br>
+                      <br><b> A </b> ccountability  – Be a good & responsible stakeholder
+                      <br>
+                      <br><b> S </b> peed  – Having that sense of urgency.
+                      <br>
+                      <br><b> S </b> afety  – Safety is in our DNA.
+                      <br>
+                      <br><b> I </b> ntegrity  – It pays to be honest 
+                      <br>
+                      <br><b> O </b> wnership – Own It
+                      <br>
+                      <br><b> N </b> ever Give Up – Seek and you will find; be positive. 
+                      </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="group" style="margin-top: 15%; background-color: white; width: 80%; margin-left: auto; margin-right: auto;">
+      <div class="group_container">
+
+        <h1 class="group_header"; style="color: black; text-align: center; padding-top: 5%; font-size: 3vw; margin-left: 10%;"> Our Team </h1>
+
+
+        <div class="grp" id="companies_logo" >
+          <span class="data"> 
+            <!--<img src="OIP.jpg" class="facilities_management_img"></img>-->
+            <div class="companies_container" style="margin-left: 20%;">
+
+                <!-- Full-width images with number text -->
+                <div class="comSlides" style="display: block;">
+                  <div class="numbertext">1 / 6</div>
+                    <img src="images/resource_logo.png" style="width:100%">
+                </div>
+              
+                <div class="comSlides">
+                  <div class="numbertext">2 / 6</div>
+                    <img src="images/services_logo.png" style="width:100%">
+                </div>
+              
+                <div class="comSlides">
+                  <div class="numbertext">3 / 6</div>
+                    <img src="images/recycle_logo.png" style="width:100%">
+                </div>
+              
+                <div class="comSlides">
+                  <div class="numbertext">4 / 6</div>
+                    <img src="images/highman_logo.png" style="width:100%">
+                </div>
+              
+                <div class="comSlides">
+                  <div class="numbertext">5 / 6</div>
+                    <img src="images/goodman_logo.png" style="width:100%">
+                </div>
+              
+                <div class="comSlides">
+                  <div class="numbertext">6 / 6</div>
+                    <img src="images/jnp_logo.png" style="width:100%">
+                </div>
+              
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              
+                <!-- Image text -->
+                <div class="company_caption-container">
+                  <p id="caption"></p>
+                </div>
+              
+                <!-- Thumbnail images -->
+                <div class="row" style="font-size: 1vw;">
+                  <div class="column">
+                    <img class="demo cursor" src="images/resource_logo.png" style="width:100%" onclick="currentSlide(1)" alt="PNH Resouces Pte Ltd">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/services_logo.png" style="width:100%" onclick="currentSlide(2)" alt="PNH Services Pte Ltd">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/recycle_logo.png" style="width:100%" onclick="currentSlide(3)" alt="PNH Recycle Pte Ltd">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/highman_logo.png" style="width:100%" onclick="currentSlide(4)" alt="Highman External Specialist Pte Ltd">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/goodman_logo.png" style="width:100%" onclick="currentSlide(5)" alt=" Goodman Environmental Pte Ltd ">
+                  </div>
+                  <div class="column">
+                    <img class="demo cursor" src="images/jnp_logo.png" style="width:100%" onclick="currentSlide(6)" alt="J&P Enterprise Pte Ltd">
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</body>
+</html>
