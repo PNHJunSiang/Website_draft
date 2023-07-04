@@ -157,7 +157,7 @@
   }
 
   
-  #facilities_management { 
+  #maintenance_services{ 
     width: 33%; 
     float: left;
   }
@@ -168,27 +168,22 @@
   }
   
 
-  #concrete_repaires {
+  #building_services {
     width: 33%; 
     float: left;
   }
   
-  #building_services { 
+  #hard_services { 
     width: 33%; 
     float: left;
   }
 
-  #civil_engineering { 
+  #project_management { 
     width: 33%; 
     float: left;
   }
 
-  #maintenance { 
-    width: 33%; 
-    float: left;
-  }
-
-  #housekeeping_cleansing { 
+  #housekeeping_cleaning { 
     width: 33%; 
     float: left;
   }
@@ -198,17 +193,12 @@
     float: left;
   }
 
-  #interior_decoration { 
+  #landscaping { 
     width: 33%; 
     float: left;
   }
 
-  #electrical_engineering { 
-    width: 33%; 
-    float: left;
-  }
-
-  #pest_contrtol { 
+  #recycling { 
     width: 33%; 
     float: left;
   }
