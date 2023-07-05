@@ -59,6 +59,10 @@ html, body {
   text-decoration: lightgrey underline;
 }
 
+.companies .companies_header {
+  text-decoration: lightgrey underline;
+}
+
 .about_header {
   text-decoration: lightgrey underline;
 }
@@ -85,6 +89,15 @@ html, body {
   padding: 10px;
 }
 
+.companies_profiles {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 20px;
+  vertical-align: middle;
+}
+
 .about_container {
   width: 100%;
   display: flex;
@@ -98,6 +111,14 @@ html, body {
   flex: 100%;
   padding: 10px;
   height: auto;
+}
+
+.profile {
+  display: flex;
+  flex: 100%;
+  padding: 10px;
+  height: auto;
+  padding-top: 10%;
 }
 
 .grp {
@@ -121,6 +142,15 @@ html, body {
   text-align: right;
   vertical-align: middle;
 }
+
+.com_profile {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
 
 .info {
   width: 80%;
@@ -158,58 +188,6 @@ html, body {
     flex-wrap: wrap;
     flex-direction: row;
     padding: 10px;
-  }
-
-  
-  #maintenance_services{ 
-    width: 33%; 
-    float: left;
-  }
-  
-  #companies_logo { 
-    width: 33%; 
-    float: left;
-  }
-  
-
-  #building_services {
-    width: 33%; 
-    float: left;
-  }
-  
-  #hard_services { 
-    width: 33%; 
-    float: left;
-  }
-
-  #project_management { 
-    width: 33%; 
-    float: left;
-  }
-
-  #housekeeping_cleaning { 
-    width: 33%; 
-    float: left;
-  }
-
-  #landscaping { 
-    width: 33%; 
-    float: left;
-  }
-
-  #landscaping { 
-    width: 33%; 
-    float: left;
-  }
-
-  #recycling { 
-    width: 33%; 
-    float: left;
-  }
-
-  #about_information { 
-    width: 33%; 
-    float: right;
   }
   
 
