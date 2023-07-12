@@ -89,6 +89,14 @@ html, body {
   padding: 10px;
 }
 
+.project_container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 10px;
+}
+
 .companies_profiles {
   width: 100%;
   display: flex;
@@ -107,6 +115,13 @@ html, body {
 }
 
 .service {
+  display: flex;
+  flex: 100%;
+  padding: 10px;
+  height: auto;
+}
+
+.project {
   display: flex;
   flex: 100%;
   padding: 10px;
@@ -140,6 +155,14 @@ html, body {
   flex: 1;
   display: inline-block;
   text-align: right;
+  vertical-align: middle;
+}
+
+.proj {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: center;
   vertical-align: middle;
 }
 
