@@ -225,9 +225,12 @@ body{
   background-attachment: fixed;
 }
 
+/*
 .company_background{
   background-image: url("background.jpg");
 }
+*/
+
 
 * {
   box-sizing: border-box;
