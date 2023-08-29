@@ -119,6 +119,8 @@ html, body {
   flex: 100%;
   padding: 10px;
   height: auto;
+  align-items: center;
+  justify-content: center
 }
 
 .project {
@@ -242,7 +244,31 @@ body{
 }
 
 /* Position the image container (needed to position the left and right arrows) */
-.companies_container {
+.maintenance_container {
+  position: relative;
+}
+
+.building_container {
+  position: relative;
+}
+
+.hard_container {
+  position: relative;
+}
+
+.infra_container {
+  position: relative;
+}
+
+.housekeeping_container {
+  position: relative;
+}
+
+.landscaping_container {
+  position: relative;
+}
+
+.recycling_container {
   position: relative;
 }
 
@@ -253,10 +279,33 @@ body{
 }
 
 /* Hide the images by default */
-.comSlides {
+.maintenanceSlides {
   display:none;
 }
 
+.buildSlides {
+  display:none;
+}
+
+.hsSlides {
+  display:none;
+}
+
+.infraSlides {
+  display:none;
+}
+
+.housekeepingSlides {
+  display:none;
+}
+
+.landscapeSlides {
+  display:none;
+}
+
+.recycleSlides {
+  display:none;
+}
 
 
 /* Add a pointer when hovering over the thumbnail images */
@@ -269,11 +318,11 @@ body{
 .next {
   cursor: pointer;
   position: absolute;
-  top: 40%;
+  top: 50%;
   width: auto;
   padding: 16px;
   margin-top: -50px;
-  color: black;
+  color: white;
   font-weight: bold;
   font-size: 1vw;
   border-radius: 0 2vw 2vw 0;
@@ -290,7 +339,7 @@ body{
 
 /* Position the "prev button" to the left */
 .prev {
-  left: 0;
+  left: 30%;
   border-radius: 2vw 0 0 2vw;
 }
 
@@ -306,7 +355,8 @@ body{
   font-size: 1vw;
   padding: auto auto;
   position: absolute;
-  top: 0;
+  top: 5%;
+  left: 35%;
 }
 
 /* Container for image text */
