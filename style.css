@@ -48,12 +48,29 @@ html, body {
   }
   
 
+.about{
+  width: 100%;
+  background-image: url(images/companies.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
 .company_vision {
   display: flex;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   justify-content: center;
   align-items: center;
 }
+
+table, td {
+  border: 0px solid lightslategrey;
+  border-collapse: collapse;
+  margin-left: auto; 
+  margin-right: auto;
+  text-align: center;
+}
+
+
 
 .services .service_header {
   text-decoration: lightgrey underline;
@@ -108,7 +125,7 @@ html, body {
 
 .about_container {
   width: 100%;
-  display: flex;
+  display: table-cell;
   flex-wrap: wrap;
   flex-direction: row;
   padding: 10px;
@@ -150,6 +167,9 @@ html, body {
   flex: 80%;
   padding: 10px;
   height: auto;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center
 }
 
 .data {
@@ -168,6 +188,22 @@ html, body {
   vertical-align: middle;
 }
 
+.flagship {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: right;
+  vertical-align: middle;
+}
+
+.flagship_proj {
+  width: 80%;
+  flex: 1;
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+
 .com_profile {
   width: 80%;
   flex: 1;
@@ -181,7 +217,7 @@ html, body {
   width: 80%;
   flex: 1;  
   display:flex;
-  text-align:center;
+  text-align:right;
   vertical-align: middle;
   padding-left: 15%;
 
@@ -339,7 +375,7 @@ body{
 
 /* Position the "prev button" to the left */
 .prev {
-  left: 30%;
+  left: 0;
   border-radius: 2vw 0 0 2vw;
 }
 
@@ -351,12 +387,12 @@ body{
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: black;
-  font-size: 1vw;
+  color: white;
+  font-size: 1.5vw;
   padding: auto auto;
   position: absolute;
   top: 5%;
-  left: 35%;
+  left: 5%;
 }
 
 /* Container for image text */

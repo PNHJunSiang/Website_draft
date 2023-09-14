@@ -7,6 +7,21 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4596ae72b8.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript">var submitted=false;</script>
+    <script type="text/javascript">
+        $('#gform').on('submit', function(e) {
+        $('#gform *').fadeOut(2000);
+        $('#gform').prepend('Your submission has been processed...');
+        });
+    </script>
+    <script src="https://kit.fontawesome.com/4596ae72b8.js" crossorigin="anonymous"></script>
+    <title>Contact Form</title>
+    <!-- Form styling -->
+    <link rel="stylesheet" href="formcarry-form.css" />
 </head>
 
 <body>
@@ -21,278 +36,275 @@
     </div>
 
     <div class="company_background" style="padding-bottom: 10%; padding-top: 10%;">
+      <div style="align-items: center; display: flex; justify-content: center;padding-bottom: 10%;">
+          <b style="color: orange; font-size: 7vw; text-shadow: 2px 2px 8px #1338BE;"> P</b> <b style="color: black; font-size: 5vw; text-shadow: 1px 1px 4px #1338BE;">ursue &nbsp </b> 
+          <b style="color: orange; font-size: 7vw; text-shadow: 2px 2px 8px #1338BE;"> N</b> <b style="color: black; font-size: 5vw; text-shadow: 1px 1px 4px #1338BE;">ew &nbsp  </b> 
+          <b style="color: orange; font-size: 7vw; text-shadow: 2px 2px 8px #1338BE;"> H</b> <b style="color: black; font-size: 5vw; text-shadow: 1px 1px 4px #1338BE;">orizon &nbsp  </b>
+      </div>
       <div class= "company_vision"; id="company_vision" style="margin-top: 8px; font-size: 5vw;">
-          <b style="color: orange;"> P.A.S. </b> <b style="color: red;">S</b> <b style="color: orange;">.I.O.N </b>
+          <b style="color: orange; text-shadow: 1px 0.5px black;"> P.A.S. </b> <b style="color: red;  text-shadow: 1px 0.5px black;">S</b> <b style="color: orange;  text-shadow: 1px 0.5px black;">.I.O.N </b>
       </div>
 
       <div class= "company_vision"; style=" font-weight: lighter; font-size: 2vw;">
-          <b style="color: orange;">P</b> 
+          <b style="color: orange; text-shadow: 0.5px 0.5px black;">P</b> 
           <b style="color: #1338BE;">rofesionalism.</b> 
-          <b style="color: orange;">A</b>
+          <b style="color: orange; text-shadow: 0.5px 0.5px black;">A</b>
           <b style="color: #1338BE;">ccountability.</b>
-          <b style="color: orange;">S</b>
+          <b style="color: orange; text-shadow: 0.5px 0.5px black;">S</b>
           <b style="color: #1338BE;">peed.</b>
-          <b style="color: red;">S</b>
+          <b style="color: red; text-shadow: 0.5px 0.5px black;">S</b>
           <b style="color: #1338BE;">afety.</b>
-          <b style="color: orange;">I</b>
+          <b style="color: orange; text-shadow: 0.5px 0.5px black;">I</b>
           <b style="color: #1338BE;">ntegrity.</b>
-          <b style="color: orange;">O</b>
+          <b style="color: orange; text-shadow: 0.5px 0.5px black;">O</b>
           <b style="color: #1338BE;">wnership.</b>
-          <b style="color: orange;">N</b>
+          <b style="color: orange; text-shadow: 0.5px 0.5px black;">N</b>
           <b style="color: #1338BE;">ever Give Up</b>
       </div>
     </div>
 
-    <div class="about" id= "about" style="margin-top:2%; background-color: white; width: 100%;">
+    <div class="about" id= "about" style="margin-top:2%;">
       
       <div style="text-align: center; padding-top: 5%">
-        <a href="about.html" class="about_header"> <b style="color: black; font-size: 3vw;"> ABOUT US </b> </a>
+        <img src="images/top_triangle.png" style="width: 5vw; height: 5vw; float: left;">
+        <a href="about.html" class="about_header" style="padding-bottom: 5%;"> <b style="color: black; font-size: 3vw;"> ABOUT US </b> </a>
       </div>
         
 
         <div class = "about_container">
+          
             <div class = "about_info" id = "about_information">
-                <div class = "info" > 
-                    <p style="font-size: 2vw;"> Our </p> 
-                    <p style="font-size: 3vw;"> <u> Vision </u> </p>
+                <div class = "info" style="text-align: right;"> 
+                    
                 </div>
-                <div class = "info" style="text-align: left; font-size: 1.5vw; border-left: 2px dashed orange; padding-left: 2%; padding-right: 12%;"> 
-                  <p>To be a company that provides sustainable facility solutions in a safe, 
-                    environmentally friendly and socially responsible fashion through design & build, 
+                <div class = "info" style="text-align: left; font-size: 1.5vw; border-left: 2px dashed orange; padding-left: 2%; padding-right: 12%; padding-bottom: 2%; padding-top: 2%;"> 
+                  <p>
+                    <b style="font-size: 2vw;"> Vision </b>
+                    <br>
+                    <br>
+                    To be a company that provides sustainable facility solutions in a <b>safe, 
+                    environmentally friendly and socially responsible fashion </b>through design & build, 
                     maintenance, innovation and talent excellence. 
                   </p>
-              </div>
+                </div>
             </div>
 
-            <div class = "about_info" id = "about_information">
+            <div class = "about_info" id = "about_information" style="vertical-align: middle;">
                 
                 <div class = "info"> 
-                  <p style="font-size: 2vw;"> Our </p> 
-                  <p style="font-size: 3vw;"> <u> Core Values </u> </p>
+                  
                 </div>
-                <div class = "info" style="text-align: left; font-size: 1.5vw; border-left: 2px dashed red; padding-left: 2%; padding-right: 12%;"> 
+                <div class = "info" style="text-align: left; font-size: 1.5vw; border-left: 2px dashed red; padding-left: 2%; padding-right: 12%; padding-bottom: 2%; padding-top: 2%;"> 
                     <p>
-                      <b> To Serve with</b> <b style="font-size: 2vw;">P.A.S.</b> <b style="color: red; font-weight: bolder; font-size: 2vw;">S</b> <b style="font-size: 2vw;">.I.O.N</b> 
+                      <b style="font-size: 2vw;"> Core Values </b>
+                      
+                      <b> To Serve with</b> <b style="font-size: 1.75vw;">P.A.S.</b> <b style=" font-size:1.75vw;">S</b> <b style="font-size: 1.75vw;">.I.O.N</b> 
                       <br>
                       <br>
-                      <b > P</b>rofessionalism  – Be professional in presenting ourselves to our colleagues and customers. 
+                      <b style="color: orange; font-weight: bolder; font-size: 2.2vw;"> P</b><b style="color: orange;">rofessionalism </b> – Be professional in presenting ourselves to our colleagues and customers. 
                       <br>
-                      <br><b> A</b>ccountability  – Be a good & responsible stakeholder
                       <br>
-                      <br><b> S</b>peed  – Having that sense of urgency.
+                      <b style="color: orange; font-weight: bolder; font-size: 2.2vw;"> A</b><b style="color: orange;">ccountability</b>  – Be a good & responsible stakeholder.
                       <br>
-                      <br><b style="color: red;"> S</b>afety  – Safety is in our DNA.
                       <br>
-                      <br><b> I</b>ntegrity  – It pays to be honest 
+                      <b style="color: orange; font-weight: bolder; font-size: 2.2vw;"> S</b><b style="color: orange;">peed</b>  – Having that sense of urgency.
                       <br>
-                      <br><b> O</b>wnership – Own It
                       <br>
-                      <br><b> N</b>ever Give Up – Seek and you will find; be positive. 
+                      <b style="color: red; font-weight: bolder; font-size: 2.2vw;"> S</b><b style="color: red;">afety</b>  – Safety is in our DNA.
+                      <br>
+                      <br>
+                      <b style="color: orange; font-weight: bolder; font-size: 2.2vw;"> I</b><b style="color: orange; ">ntegrity</b>  – It pays to be honest .
+                      <br>
+                      <br>
+                      <b style="color: orange; font-weight: bolder; font-size: 2.2vw;"> O</b><b style="color: orange;">wnership</b> – Own It.
+                      <br>
+                      <br>
+                      <b style="color: orange; font-weight: bolder; font-size: 2.2vw;"> N</b><b style="color: orange;">ever Give Up</b> – Seek and you will find; be positive. 
                       </p>
                 </div>
             </div>
-
+            <img src="images/bottom_triangle.png" style="width: 7vw; height: 7vw; float: right ; align-items: baseline;">
         </div>
     </div>
 
-    <div class="group" style=" background-color: white; width: 100%; margin-left: auto; margin-right: auto; height: auto; margin-bottom: 0px;">
-      <div class="group_container" style="margin: auto;">
 
-        <div class="project" id="maintenance_services">
-
-          <span class="proj" style=" margin-top: 5%; float: right;"> 
-
-            <img src="images/companies.jpg" class="maintenance_services_img"style="width: 60%;"></img>
-          </span>
-
-          <!--
-          <span class="proj" style=" margin-top: 8%; float: right;"> 
-
-            <div class="grp" id="companies_logo" >
-              <span class="data"> 
-
-                <div class="companies_container" style=" width:100%;">
-    
-
-                    <div class="comSlides" style="display: block;">
-                      <div class="numbertext">1 / 6</div>
-                        <img src="images/resource_logo.png" style="width:100%;">
-                    </div>
-                  
-                    <div class="comSlides">
-                      <div class="numbertext">2 / 6</div>
-                        <img src="images/services_logo.png" style="width:100%">
-                    </div>
-                  
-                    <div class="comSlides">
-                      <div class="numbertext">3 / 6</div>
-                        <img src="images/recycle_logo.png" style="width:100%">
-                    </div>
-                  
-                    <div class="comSlides">
-                      <div class="numbertext">4 / 6</div>
-                        <img src="images/highman_logo.png" style="width:100%">
-                    </div>
-                  
-                    <div class="comSlides">
-                      <div class="numbertext">5 / 6</div>
-                        <img src="images/goodman_logo.png" style="width:100%">
-                    </div>
-                  
-                    <div class="comSlides">
-                      <div class="numbertext">6 / 6</div>
-                        <img src="images/jnp_logo.png" style="width:100%">
-                    </div>
-                  
-
-                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
-                  
-
-                    <div class="company_caption-container">
-                      <p id="caption"></p>
-                    </div>
-                  
-
-                    <div class="row" style="font-size: 1vw;">
-                      <div class="column">
-                        <img class="demo cursor" src="images/resource_logo.png" style="width:100%" onclick="currentSlide(1)" alt="PNH Resouces Pte Ltd">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/services_logo.png" style="width:100%" onclick="currentSlide(2)" alt="PNH Services Pte Ltd">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/recycle_logo.png" style="width:100%" onclick="currentSlide(3)" alt="PNH Recycle Pte Ltd">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/highman_logo.png" style="width:100%" onclick="currentSlide(4)" alt="Highman External Specialist Pte Ltd">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/goodman_logo.png" style="width:100%" onclick="currentSlide(5)" alt=" Goodman Environmental Pte Ltd ">
-                      </div>
-                      <div class="column">
-                        <img class="demo cursor" src="images/jnp_logo.png" style="width:100%" onclick="currentSlide(6)" alt="J&P Enterprise Pte Ltd">
-                      </div>
-                    </div>
-                  </div>
-            </div>
-          </span>
-        -->
-
-        </div>
-
-
-
-      
-      </div>
-    </div>
-
-
-    <div class="services"; id="services"; style=" background-color: whitesmoke; width: 100%; margin-left: auto; margin-right: auto;">
+    <div class="services"; id="services"; style=" background-color: whitesmoke; width: 100%; margin-left: auto; margin-right: auto; padding-bottom: 5%;">
         
-      <div style="text-align: center;">
-        <a href="service.html" class="service_header"; style="color: black; text-align: center; padding-top: 5%; font-size: 3vw;"> SERVICES </a>
+      <div style="text-align: center; padding-top: 5%; padding-bottom: 3%;">
+        <a href="service.html" class="service_header"; style="color: black; text-align: center; font-size: 3vw; text-decoration: overline;  text-decoration-color: orangered"> <b>SERVICES</b> </a>
 
       </div>
 
-        <div class="service_container">
-
-            <div class="service" id="maintenance_services">
-              <span class="data" style="margin-right: 20px;"> 
-                <img src="images/service3.jpeg" class="maintenance_services_img"style="width: 50%;"></img>
-
-              </span>
-              <span class="data" style="text-align: left; margin-left: 20px; font-size: 2vw;"> 
-                
-                <p style="vertical-align: middle;">Maintenance Services
-                </p>
-
-              </span>
-            </div>
-
-            <div class="service" id="building_services">
-              <span class="data" style="margin-right: 20px;">
-                <img src="images/higman_pic1.jpg" class="building_services_img" style="width: 50%;"></img>
-              </span>
-              <span class="data" style="text-align: left; margin-left: 20px; font-size: 2vw;">Building Services
-                
-              </span>
-            </div>
-
-            <div class="service" id="hard_services">
-              <span class="data" style="margin-right: 20px;">
-                <img src="images/pipeinstallation1.jpeg" class="hard_services_img" style="width: 50%;"></img>
-              </span>
-              <span class="data" style="text-align: left; margin-left: 20px; font-size: 2vw;">Hard Services
-                
-              </span>
-            </div>
-
-            <div class="service" id="infrastructure">
-                <span class="data" style="margin-right: 20px;">
-                    <img src="images/roadmark2.jpeg" class="infrastructure_img" style="width: 50%;" ></img>
-                </span>
-                <span class="data" style="text-align: left; margin-left: 20px; font-size: 2vw;">Infrastructure
-                    
-                </span>
-            </div>
-
-            <div class="service" id="housekeeping_cleaning">
-                <span class="data" style="margin-right: 20px;">
-                    <img src="images/cleaning.jpg" class="housekeeping_cleaning" style="width: 50%;"></img>
-                </span>
-                <span class="data" style="text-align: left; margin-left: 20px; font-size: 2vw;">House Keeping and Cleaning
-                    
-                </span>
-            </div>
-
-            <div class="service" id="landscaping">
-                <span class="data" style="margin-right: 20px;">
-                    <img src="images/landscaping_pic1.jpg" class="landscaping_img" style="width: 50%;"></img>
-                </span>
-                <span class="data" style="text-align: left; margin-left: 20px; font-size: 2vw;">Landscaping
-                    
-                </span>
-            </div>
-
-            <div class="service" id="recycling">
-              <span class="data" style="margin-right: 20px;">
-                  <img src="images/recycle_pic1.png" class="recycling_img" style="width: 50%;"></img>
-              </span>
-              <span class="data" style="text-align: left; margin-left: 20px; font-size: 2vw;">Recycling
-
-              </span>
-          </div>
-
-        </div>
+      <div class="service_table" style="font-size: 1.5vw; ">
+        <table>
+          <tr style="height: 25vw;">
+            <td style="width: 30%;">
+              <img src="images/C1.jpg" 
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              <b></b>Design & Build Services</b>
+            </td>
+  
+            <td style="width: 30%;">
+              <img src="images/hs1.jpeg"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              Technical Engineering Services
+            </td>
+  
+            <td style="width: 30%;">
+              <img src="images/b6.jpeg"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              General Building Works
+            </td>
+          </tr>
+  
+          <tr style=" height: 25vw;">
+            <td style="width: 30%;">
+              <img src="logo.jpg"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              Sustainable Initiatives & Energy Management 
+            </td>
+  
+            <td style="width: 30%;">
+              <img src="images/b2.png"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              External  Facade & internal Highrise Works
+            </td>
+  
+            <td style="width: 30%;">
+              <img src="images/h4.jpeg"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              Janitorial and Housekeeping Services
+            </td>
+          </tr>
+  
+          <tr style="height: 25vw;">
+            <td style="width: 30%;">
+              <img src="images/l1.jpg"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              Horticulture & Landscaping Services
+            </td>
+  
+            <td style="width: 30%;">
+              <img src="images/p1.jpeg"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              Environmental & Pest Control Services
+            </td>
+  
+            <td style="width: 30%;">
+              <img src="images/i2.jpeg"
+              style="width: 20vw; height: 15vw; 
+              border:2px solid #fff;
+              -moz-box-shadow: 10px 10px 5px #ccc;
+              -webkit-box-shadow: 10px 10px 5px #ccc;
+              box-shadow: 10px 10px 5px #ccc;
+              -moz-border-radius:25px;
+              -webkit-border-radius:25px;
+              border-radius:25px;">
+              <br>
+              <br>
+              Infrastructure
+            </td>
+          </tr>
+  
+        </table>
+  
+      </div>
+      
     </div>
 
-    <div class="rows" style="background-color: gray;">
-      <div style="padding-top: 10px;">
-        <div class="col" style="display: flex; align-items: center; margin-left: 22%;">
-          <i class="fa-solid fa-phone"></i> 
-        </div>
+    <div class="award_recog" style="padding-bottom: 5%;">
+      <img src="images/award.jpg" style="width: 90%; height: auto; display: block; margin-left: 5%; margin-left: 5%;">
+    </div>
 
-        <div class="col" style="display: flex; align-items: center;">
-            <i class="fa-solid fa-fax"></i>
-        </div>
+    <div style="padding-bottom: 5%;">
+      <h1 class="contact_header"; style="color: black; text-align: center; font-size: 2vw;"> Send Us Your Inquiry and Get a Free Quote Now ! </h1>
 
-        <div class="col" style="display: flex; align-items: center; margin-left: 2%;">
-            <i class="fa-solid fa-envelope"></i> 
-        </div>
-
-        <div class="col" style="display: flex; align-items: center; margin-left: 18%; font-size: 1.5vw;">
-          <p> (65) 1234 5678 </p>
-        </div>
-
-        <div class="col" style="display: flex; align-items: center;font-size: 1.5vw;">
-          <p> (65) 1234 5678 </p>
-        </div>
-
-        <div class="col" style="display: flex; align-items: center; font-size: 1.5vw;">
-          <p> abc_abc@pnhgrp.com </p>
-        </div>
-      </div>
+    <div class="formcontainer" style="display: flex;justify-content: center;font-size: 1.5vw;">
+      <form name="gform" id="gform" enctype="text/plain" action="https://docs.google.com/forms/d/e/1FAIpQLSf1_HeAOHx59BjyCKKCLHm5ASsb2LbpXr3gX90uNmO7CFjTBQ/formResponse?"
+      target="hidden_iframe" onsubmit="submitted=true;">
+        Name:<br>
+        <textarea type="text" name="entry.602557892" id="entry.602557892" rows="2"> </textarea><br>
+        Email：<br>
+        <textarea type="text" name="entry.969233798" id="entry.969233798" rows="2"> </textarea><br>
+        Message:<br>
+        <textarea id="entry.820749606" name="entry.820749606" rows="4" cols="50">
+        </textarea>
+        <br><br>
+        <input type="submit" value="Submit" >
+      </form>
+    </div>
     </div>
 
 </body>
