@@ -49,8 +49,15 @@ html, body {
   
 
 .about{
-  width: 100%;
   background-image: url(images/companies.jpg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.about1{
+  background-image: url(images/companies.jpg);
+  background-size: 50%;
   background-repeat: no-repeat;
   background-position: left;
 }
@@ -265,7 +272,7 @@ body{
 
 
 .company_background{
-
+  background-image: url(images/grpb.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -319,6 +326,14 @@ body{
   position: relative;
 }
 
+.border_box{
+  position: absolute;
+  border: 3px solid #fff;
+  left: 5px;
+  right: 5px;
+  top: 5px;
+  bottom: 10px;
+}
 
 /* Hide the images by default */
 .mySlides {
