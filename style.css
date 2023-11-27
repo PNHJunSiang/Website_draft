@@ -144,7 +144,8 @@ table, td {
   padding: 10px;
   height: auto;
   align-items: center;
-  justify-content: center
+  justify-content: center;
+  background-color: white;
 }
 
 .project {
@@ -328,11 +329,11 @@ body{
 
 .border_box{
   position: absolute;
-  border: 3px solid #fff;
-  left: 5px;
-  right: 5px;
-  top: 5px;
-  bottom: 10px;
+  border: 3px solid white;
+  left: 10px;
+  right: 10px;
+  top: 10px;
+  bottom: 15px;
 }
 
 /* Hide the images by default */
@@ -387,7 +388,7 @@ body{
 .next {
   cursor: pointer;
   position: absolute;
-  top: 70%;
+  top: 60%;
   width: auto;
   padding: 12px;
   margin-top: -50px;
